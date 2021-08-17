@@ -1,3 +1,7 @@
+---
+This version contains only the ped_simulator (without any mention of Flatland). Objects are spawned into gazebo via pedsim_gazebo_plugin. This branch is used for arena-3d
+---
+
 # Pedestrian Simulator
 Pedestrian Simulator (Pedsim) is a 2D pedestrian simulator based on the social force model of [Helbing et. al](http://arxiv.org/pdf/cond-mat/9805244.pdf). This repository is an extension of the original [Pedsim repository](https://github.com/srl-freiburg/pedsim_ros) and also incorporating features from [Ronja Güldenring's fork](https://github.com/RGring/pedsim_ros/tree/rl_features). It's supposed to be used in conjunction with [Arena-Rosnav](https://github.com/ignc-research/arena-rosnav/tree/sim_to_real).
 
