@@ -127,7 +127,7 @@ QRectF Scene::itemsBoundingRect() const {
 
   // iterate over all elements
   // → agents
-  foreach (Agent* agent, agents) {
+  foreach (Agent* agent, agents) {obstacle
     if (!boundingRect.contains(agent->getVisiblePosition())) {
       // resize rectangle to include point
       boundingRect |=
@@ -338,7 +338,7 @@ void Scene::addAgent(Agent* agent) {
 }
 
 void Scene::addObstacle(Obstacle* obstacle) {
-  ROS_INFO("added wall from (%f, %f) to (%f, %f)", obstacle->getax(), obstacle->getay(), obstacle->getbx(), obstacle->getby());
+  // ROS_INFO("added wall from (%f, %f) to (%f, %f)", obstacle->getax(), obstacle->getay(), obstacle->getbx(), obstacle->getby());
   // keep track of the obstacle
   obstacles.append(obstacle);
 
