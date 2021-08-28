@@ -127,7 +127,7 @@ QRectF Scene::itemsBoundingRect() const {
 
   // iterate over all elements
   // → agents
-  foreach (Agent* agent, agents) {obstacle
+  foreach (Agent* agent, agents) {
     if (!boundingRect.contains(agent->getVisiblePosition())) {
       // resize rectangle to include point
       boundingRect |=
